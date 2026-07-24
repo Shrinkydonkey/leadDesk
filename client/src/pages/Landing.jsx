@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LeadForm from "../components/LeadForm";
 import "../styles/Landing.css";
 
@@ -27,6 +28,8 @@ function Landing() {
                 >
                     Digital Heroes Training Task
                 </a>
+
+                <Link to="/login">Admin Login</Link>
             </footer>
 
         </div>
