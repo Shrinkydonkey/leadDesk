@@ -28,8 +28,12 @@ function Landing() {
                 >
                     Digital Heroes Training Task
                 </a>
-
-                <Link to="/login">Admin Login</Link>
+                
+                <div className="admin-link">
+                    <Link to="/login" className="admin-btn">
+                        Admin Login
+                    </Link>
+                </div>
             </footer>
 
         </div>
